@@ -15,7 +15,7 @@ namespace AsnwerIt.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Your oapplication description page.";
 
             return View();
         }
