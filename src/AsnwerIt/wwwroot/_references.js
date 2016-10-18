@@ -4,6 +4,7 @@
 /// <reference path="js/app/howto/howto.controller.js" />
 /// <reference path="js/app/play/play.controller.js" />
 /// <reference path="js/app/play/play.service.js" />
+/// <reference path="js/app/upload/about.controller.js" />
 /// <reference path="js/site.min.js" />
 /// <reference path="lib/angular/angular.js" />
 /// <reference path="lib/bootstrap/dist/js/bootstrap.js" />

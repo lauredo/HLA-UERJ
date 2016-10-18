@@ -33,6 +33,12 @@
                 templateUrl: 'templates/about.html',
                 controller: 'AboutController',
                 controllerAs: 'vm'
+            })
+            .state('upload', {
+                url: '/upload',
+                templateUrl: 'templates/upload.html',
+                controller: 'UploadController',
+                controllerAs: 'vm'
             });
     }
 
