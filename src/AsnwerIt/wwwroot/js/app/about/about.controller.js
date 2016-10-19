@@ -16,6 +16,6 @@
 
         ////////////////
 
-        function activate() {}
+        function activate() { }
     }
 })();

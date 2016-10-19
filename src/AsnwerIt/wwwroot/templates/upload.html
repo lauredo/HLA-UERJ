@@ -1,1 +1,10 @@
-<h2>{{vm.upload}}</h2>
+<div class="row" style="text-align:left">
+    <div flow-init flow-name="vm.uploader.flow">
+        <button flow-btn>Add files</button>
+        <button ng-click="vm.upload()">Upload</button>
+        <div ng-repeat="file in vm.uploader.flow.files">
+            {{file.name}} <a ng-click="file.cancel()">X</a>
+        </div>
+        Total files #{{vm.uploader.flow.files.length}}
+    </div>
+</div>

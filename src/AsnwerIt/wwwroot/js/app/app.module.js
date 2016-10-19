@@ -1,9 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('answerit', [
-        'ui.router'
-    ])
+    angular.module('answerit', ['ui.router','flow'])
         .config(['$urlRouterProvider', '$stateProvider', configRoutes])
         .run(['$rootScope', '$state', configureStateWithScope]);
 
